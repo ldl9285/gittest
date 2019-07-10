@@ -10,6 +10,7 @@ public class GittestApplication {
         Test1 t = new Test1();
         t.setUsername("测试类");
         t.setPassword("admin");
+        System.out.println("修改一次");
         SpringApplication.run(GittestApplication.class, args);
     }
 
